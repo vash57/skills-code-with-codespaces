@@ -1,3 +1,4 @@
+
 {
   "name": "Basic Dev Environment",
   "image": "mcr.microsoft.com/devcontainers/base:debian",
@@ -14,5 +15,6 @@
         "ms-python.debugpy"
       ]
     }
-  }
+  },
+  "postCreateCommand": ".devcontainer/postCreate.sh"
 }
